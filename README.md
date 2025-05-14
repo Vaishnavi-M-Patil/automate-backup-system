@@ -16,7 +16,8 @@ Serves as the Mail User Agent (MUA). It's the command-line tool you use in scrip
 
 ## Create client user and give sudo privilege. 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="700" />
---------------------
+
+
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png" width="700" />
 
 ## Create remote user and give sudo privilege. 
