@@ -1,4 +1,4 @@
-# Automate Backup System(centos): rsync,postfix,s-nail,cron
+# Automate Backup System
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png" width="700" />
