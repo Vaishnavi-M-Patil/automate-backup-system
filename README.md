@@ -1,7 +1,7 @@
 # Automate Backup System(centos): rsync,postfix,s-nail,cron
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="800" />
+<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="600" />
 
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png" width="800" />
+<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png" width="600" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/3.png" width="800" />
 
