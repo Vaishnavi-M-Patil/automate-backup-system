@@ -54,7 +54,7 @@ Serves as the Mail User Agent (MUA). It's the command-line tool you use in scrip
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/16.png" width="700" />
 
-## create sasl_password file under /etc/postfix/sasl and convet it into db file
+## create sasl_password file under /etc/postfix/sasl and convert it into db file
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/17.png" width="700" />
 
 ## Schedule with Crontab
