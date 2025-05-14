@@ -24,7 +24,7 @@ Serves as the Mail User Agent (MUA). It's the command-line tool you use in scrip
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/4.png" width="700" />
 
-##Generate ssh key and copy public key on remote machine.
+## Generate ssh key and copy public key on remote machine.
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/5.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/6.png" width="700" />
@@ -34,18 +34,18 @@ Serves as the Mail User Agent (MUA). It's the command-line tool you use in scrip
 ## Create backup directory on remote machine 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/8.png" width="700" />
 
-##Create backup.sh and backup.log file on client machine
+## Create backup.sh and backup.log file on client machine
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/9.png" width="700" />
 
 ## create script for backup
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/10.png" width="700" />
 
-##Install Required Packages
+## Install Required Packages
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/11.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/12.png" width="700" />
 
-##Configure Postfix
+## Configure Postfix
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/13.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/14.png" width="700" />
@@ -54,15 +54,15 @@ Serves as the Mail User Agent (MUA). It's the command-line tool you use in scrip
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/16.png" width="700" />
 
-##create sasl_password file under /etc/postfix/sasl and convet it into db file
+## create sasl_password file under /etc/postfix/sasl and convet it into db file
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/17.png" width="700" />
 
-##Schedule with Crontab
+## Schedule with Crontab
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/18.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/19.png" width="700" />
 
-##Output
+## Output
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/20.png" width="700" />
 
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/21.png" width="700" />
