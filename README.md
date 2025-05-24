@@ -31,6 +31,7 @@ A command-line Mail User Agent (MUA) used to compose and send emails from shell 
 
 ### ✅ Create a client user:
 Create a new user on the client machine (from where the backup will run).
+![Screenshot (409)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png)
 <img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="700" />
 
 ### ✅ Grant Sudo Privileges to the Client User: 
