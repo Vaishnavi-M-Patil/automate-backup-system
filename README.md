@@ -31,82 +31,80 @@ A command-line Mail User Agent (MUA) used to compose and send emails from shell 
 
 ### ✅ Create a client user:
 Create a new user on the client machine (from where the backup will run).
-![Screenshot (409)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png)
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png" width="700" />
+![Screenshot (1)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/1stimg.png)
 
 ### ✅ Grant Sudo Privileges to the Client User: 
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png" width="700" />
+![Screenshot (2)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/2.png)
 
 ### ✅ Create a remote user:
 Create a user on the remote machine (where backups will be stored).
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/3.png" width="700" />
+![Screenshot (3)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/3.png)
 
 ### ✅ Grant Sudo Privileges to the Remote User:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/4.png" width="700" />
+![Screenshot (3)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/4.png)
 
 ### ✅ Generate SSH key on the clinet machine:
 Use `ssh-keygen` to generate a public/private key pair for passwordless authentication.
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/5.png" width="700" />
+![Screenshot (5)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/5.png)
 
 ### ✅ Copy the Public Key to the Remote Machine:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/6.png" width="700" />
+![Screenshot (6)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/6.png)
 
 ### ✅ Store the public key in `~/.ssh/authorized_keys` on the Remote Machine:
 Ensure the key is added to the `authorized_keys` file and set proper permissions.
 ```bash
 chmod 600 ~/.ssh/authorized_keys
 ```
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/7.png" width="700" />
+![Screenshot (7)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/7.png)
 
 ### ✅ Create 'backup' directory on the remote machine:
 This is the target directory where backups will be stored.
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/8.png" width="700" />
+![Screenshot (8)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/8.png)
 
 ### ✅ Create backup.sh and backup.log on the Client Machine:
 `backup.sh` contains backup logic and `backup.log` file store logs related to backup status.
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/9.png" width="700" />
+![Screenshot (9)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/9.png)
 
 ### ✅ Write the Backup Script:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/10.png" width="700" />
+![Screenshot (10)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/10.png)
 
 ### ✅ Install the s-nail Package:
 Install s-nail(Ubuntu/Debian) or mailx(CentOS/RHEL) on the client machine for email alerts.
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/11.png" width="700" />
+![Screenshot (11)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/11.png)
 
 ### ✅ Install the postfix Package:
 Install and configure Postfix to enable email delivery from the local machine.
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/12.png" width="700" />
+![Screenshot (12)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/12.png)
 
 ### ✅ Configure Postfix 
 Edit the Postfix configuration file /etc/postfix/main.cf:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/13.png" width="700" />
+![Screenshot (13)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/13.png)
 
 ### ✅ Add a relayhost in `main.cf`:
 Set the external SMTP server (e.g., Gmail) as the relay host:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/14.png" width="700" />
+![Screenshot (14)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/14.png)
 
 ### ✅ Add myhostname in `main.cf`: 
 Specify the hostname of your client machine:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/15.png" width="700" />
+![Screenshot (15)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/15.png)
 
 ### ✅ Specify the location of the sasl_passwd file and enable SASL authentication for postfix: 
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/16.png" width="700" />
+![Screenshot (16)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/16.png)
 
 ### ✅ create sasl_password file under /etc/postfix/sasl and convert it to a db file:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/17.png" width="700" />
+![Screenshot (17)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/17.png)
 
 ### ✅ Set 600 permission to sasl_passwd file and start postfix service also make backup.sh script executable:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/18.png" width="700" />
+![Screenshot (18)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/18.png)
 
 ### ✅ Schedule the Backup Script with Crontab:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/19.png" width="700" />
+![Screenshot (19)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/19.png)
 
 ### ✅ Output Verification:
 Check the backup.log file on the client to confirm rsync operations:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/22.png" width="700" />
+![Screenshot (22)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/22.png)
 Login to the remote machine and verify that files were backed up to the backup/ directory:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/20.png" width="700" />
+![Screenshot (20)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/20.png)
 Check the mailbox or email client for backup status notifications:
-<img src="https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/21.png" width="700" />
-
+![Screenshot (21)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/21.png)
 
