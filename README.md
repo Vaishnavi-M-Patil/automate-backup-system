@@ -45,7 +45,7 @@ Create a user on the remote machine (where backups will be stored).
 ### ✅ Grant Sudo Privileges to the Remote User:
 ![Screenshot (3)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/4.png)
 
-### ✅ Generate SSH key on the clinet machine:
+### ✅ Generate SSH key on the client machine:
 Use `ssh-keygen` to generate a public/private key pair for passwordless authentication.
 
 ![Screenshot (5)](https://github.com/Vaishnavi-M-Patil/automatebackup/blob/main/assets/5.png)
